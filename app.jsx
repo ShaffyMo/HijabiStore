@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { User, Menu, X, Lock, Unlock, PlusCircle, CheckCircle, AlertCircle, Edit2, Trash2 } from 'lucide-react';
+import { Menu, X, Lock, Unlock, CheckCircle, AlertCircle, Edit2, Trash2 } from 'lucide-react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithCustomToken, onAuthStateChanged, signOut } from 'firebase/auth';
 import { getFirestore, onSnapshot, collection, addDoc, doc, deleteDoc, updateDoc } from 'firebase/firestore';
@@ -523,3 +523,4 @@ export default function App() {
     </div>
   );
 }
+
